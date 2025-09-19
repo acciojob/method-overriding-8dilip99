@@ -2,10 +2,10 @@ package com.driver;
 
 public class Main {
     public static void main(String[] args) {
-        B a= new B();
-        a.meth();
+        B obj= new B();
 
-        a.meth();
-        System.out.println(a.meth());
+
+
+        System.out.println(obj.meth());
     }
 }
